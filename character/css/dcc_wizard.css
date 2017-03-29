@@ -1,0 +1,298 @@
+/*
+Dungeon Crawl Classics Wizard Character Class Random Generator
+Designed by Mark Tasaka 2017
+*/
+
+body{
+	font-family: sans-serif;
+	font-size: 1.5em;
+	font-weight: bold;
+}
+
+#character_sheet{
+	width: 950px;
+    height: auto;
+	display: block;
+}
+
+#name{
+    position: absolute;
+    top: 155px;
+    left: 90px;
+	font-size: 1.2em;
+}
+
+#occupation{
+    position: absolute;
+    top: 125px;
+    left: 225px;
+	font-size: 1em;
+}
+
+#alignment{
+    position: absolute;
+    top: 125px;
+    left: 485px;
+	font-size: 1em;
+}
+
+#title{
+    position: absolute;
+    top: 228px;
+    left: 150px;
+	font-size: 1em;
+}
+
+#level{
+    position: absolute;
+    top: 228px;
+    left: 65px;
+	font-size: 1em;
+}
+
+
+#actionDie{
+    position: absolute;
+    top: 228px;
+    left:  430px;
+	font-size: 1em;
+}
+
+
+#baseArmourClass{
+    position: absolute;
+    top: 320px;
+    left: 62px;
+	font-size: 1.5em;
+}
+
+
+
+#hitPoints{
+	position: absolute;
+    top: 330px;
+    left: 275px;
+	font-size: 1.4em;
+}
+
+
+#strength{
+    position:absolute;
+    top: 290px;
+    left: 480px;
+	font-size: 1.4em;
+}
+
+#strengthMod{
+    position:absolute;
+    top: 290px;
+    left: 545px;
+	font-size: 1.4em;
+}
+
+
+#agility{
+    position:absolute;
+    top: 333px;
+    left: 480px;
+	font-size: 1.4em;
+}
+
+#agilityMod{
+    position:absolute;
+    top: 333px;
+    left: 545px;
+	font-size: 1.4em;
+}
+
+
+#stamina{
+    position:absolute;
+    top: 370px;
+    left: 480px;
+	font-size: 1.4em;
+}
+
+#staminaMod{
+    position:absolute;
+    top: 370px;
+    left: 545px;
+	font-size: 1.4em;
+}
+
+
+#personality{
+    position:absolute;
+    top: 410px;
+    left: 480px;
+	font-size: 1.4em;
+}
+
+#personalityMod{
+    position:absolute;
+    top: 410px;
+    left: 545px;
+	font-size: 1.4em;
+}
+
+
+
+
+#intelligence{
+    position:absolute;
+    top: 450px;
+    left: 480px;
+	font-size: 1.4em;
+}
+
+#intelligenceMod{
+    position:absolute;
+    top: 450px;
+    left: 545px;
+	font-size: 1.4em;
+}
+
+
+
+#luck{
+    position:absolute;
+    top: 490px;
+    left: 480px;
+	font-size: 1.4em;
+}
+
+#luckMod{
+    position:absolute;
+    top: 490px;
+    left: 545px;
+	font-size: 1.4em;
+}
+
+#knownSpells{
+    position: absolute;
+    top: 442px;
+    left: 710px;
+	font-size: 1.3em;
+}
+
+
+#maxSpells{
+    position: absolute;
+    top: 442px;
+    left: 855px;
+	font-size: 1.3em;
+}
+
+
+#init{
+    position: absolute;
+    top: 542px;
+    left:  178px;
+	font-size: 1.6em;
+}
+
+
+#speed{
+    position: absolute;
+    top: 582px;
+    left:  178px;
+	font-size: 1.6em;
+}
+
+
+#melee{
+    position: absolute;
+    top: 622px;
+    left: 178px;
+	font-size: 1.6em;
+}
+
+
+#range{
+    position: absolute;
+    top: 662px;
+    left:  178px;
+	font-size: 1.6em;
+}
+
+
+#ref{
+    position: absolute;
+    top: 702px;
+    left:  178px;
+	font-size: 1.6em;
+}
+
+#fort{
+    position: absolute;
+    top: 742px;
+    left:  178px;
+	font-size: 1.6em;
+}
+
+#will{
+    position: absolute;
+    top: 782px;
+    left:  178px;
+	font-size: 1.6em;
+}
+
+
+#critDie{
+    position: absolute;
+    top: 580px;
+    left:  305px;
+	font-size: 1em;
+}
+
+#critTable{
+    position: absolute;
+    top: 573px;
+    left:  410px;
+	font-family: serif;
+	font-size: 1.4em;
+}
+
+
+
+#fumbleDie{
+    position: absolute;
+    top: 580px;
+    left:  520px;
+	font-size: 1.2em;
+}
+
+
+#luckySignDescription{
+    position: absolute;
+    top: 650px;
+    left: 305px;
+	font-size: 0.7em;
+	width: 270px;
+}
+
+
+#languages{
+    position: absolute;
+    top: 755px;
+    left: 305px;
+	font-size: 0.6em;
+	width: 290px;
+}
+
+
+#zeroWeapon{
+    position: absolute;
+    top: 870px;
+    left: 60px;
+	font-size: 0.7em;
+	width: 300px;
+}
+
+
+#luckBonus{
+    position: absolute;
+    top: 966px;
+    left: 358px;
+    font-size: 0.9em;
+}
